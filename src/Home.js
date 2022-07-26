@@ -1,12 +1,12 @@
+import Header from '../components/Header';
 import './Home.css';
 
-const Home = () =>{
+const Home = () => {
   return (
-  <div ClassName='Home'>
-  
-  </div>
-)
-};
-  
+    <div className='home'>
+        <Header/>
+    </div>
+  )
+}
 
 export default Home;
